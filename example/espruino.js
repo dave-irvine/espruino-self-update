@@ -9,7 +9,7 @@ function onInit() {
     bootstrap.update({
       ssid: 'mySSID',
       password: 'myPassword',
-      source: 'https://raw.githubusercontent.com/solworksltd/espruino-self-update/master/updates/',
+      source: 'https://raw.githubusercontent.com/solworksltd/espruino-self-update/master/example/updates/',
     }, function() {
       var mycode = require('mycode');
       mycode.start();
